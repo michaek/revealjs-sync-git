@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var syncGit = require('../index');
+
+var argv = require('yargs')
+	.demand('repo')
+	.describe('repo', 'Path to the repository to keep in sync.')
+	.describe('host', 'Notes server host.')
+	.describe('port', 'Notes server port.')
+	.argv;
+
+syncGit(argv.repo, argv.host, argv.port);

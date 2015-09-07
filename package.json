@@ -1,0 +1,29 @@
+{
+  "name": "revealjs-sync-git",
+  "version": "0.0.1",
+  "description": "A module that keeps a specified git repository in sync with a reveal.js presentation.",
+  "main": "index.js",
+  "bin": {
+    "revealjs-sync-git": "./bin/revealjs-sync-git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaek/revealjs-sync-git.git"
+  },
+  "author": {
+    "name": "Michael Hellein",
+    "email": "themichaek@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaek/revealjs-sync-git/issues"
+  },
+  "homepage": "https://github.com/michaek/revealjs-sync-git",
+  "dependencies": {
+    "revealjs-listen": "0.0.1",
+    "yargs": "^3.24.0"
+  }
+}
