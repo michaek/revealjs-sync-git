@@ -20,3 +20,5 @@ node plugin/notes-server/index.js
 # Starts sync-git listener.
 revealjs-sync-git --repo /path/to/repository
 ```
+
+If you've configured your presentation following the [reveal.js documentation](https://github.com/hakimel/reveal.js#server-side-speaker-notes), your target repository should now be in sync with your presentation!
