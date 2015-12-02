@@ -16,7 +16,7 @@ function updateGit(ref, repository) {
 
 	currentRef = ref;
 
-	exec('git checkout '+currentRef, {cwd: repository}, function(err, stdout, stderr){
+	exec('git checkout -f '+currentRef, {cwd: repository}, function(err, stdout, stderr){
 		if (!err) {
 			console.log('Updated', repository, 'to', currentRef+'.');
 		}
